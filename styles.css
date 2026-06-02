@@ -223,7 +223,7 @@ h3 {
 }
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 12px;
   max-width: 980px;
   margin: 28px auto 0;
