@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mis Dulces 16 | Ximena</title>
+  <meta name="description" content="Invitación digital para los 16 años de Ximena" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="loader" id="loader">
+    <div class="loader-card">
+      <div class="monogram">X</div>
+      <p><b>Mis Dulces 16</b></p>
+      <button id="openInvitation">Abrir invitación</button>
+    </div>
+  </div>
+
+  <audio id="bgMusic" loop>
+    <!-- Reemplaza musica.mp3 por tu archivo real dentro de esta carpeta -->
+    <source src="musica.mp3" type="audio/mpeg" />
+  </audio>
+
+  <button class="music-btn" id="musicBtn" aria-label="Activar o pausar música">♫</button>
+
+  <main>
+    <section class="hero section">
+      <div class="sparkles"></div>
+      <div class="hero-content reveal">
+        <span class="eyebrow">Mis 16 Años</span>
+        <h1>Ximena</h1>
+        <p class="quote">“Hay momentos en la vida que son irrepetibles,<br>y personas especiales con quienes deseo compartirlos.”</p>
+        <div class="date-pill">25 · Julio · 2026</div>
+      </div>
+    </section>
+
+    <section class="section invitation reveal">
+      <div class="card ornamental">
+        <p class="small-title">Con la bendición de Dios</p>
+        <h2>Nos complace invitarte</h2>
+        <p>Sus padres</p>
+        <h3>E. Judith Zavala González</h3>
+        <p class="and">y</p>
+        <h3>Ricardo Mendoza Gómez</h3>
+        <p>Junto con su madrina</p>
+        <h3>Ma. Guadalupe González Archundia</h3>
+        <p class="body-text">Tenemos el honor de invitarlos a celebrar con nosotros este día tan especial.</p>
+      </div>
+    </section>
+
+    <section class="section countdown-section reveal">
+      <p class="small-title">Faltan</p>
+      <h2>Cuenta regresiva</h2>
+      <div class="countdown" id="countdown">
+        <div><strong id="days">0</strong><span>Días</span></div>
+        <div><strong id="hours">0</strong><span>Horas</span></div>
+        <div><strong id="minutes">0</strong><span>Minutos</span></div>
+        <div><strong id="seconds">0</strong><span>Segundos</span></div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="event-card">
+        <span class="icon">⛪</span>
+        <p class="small-title">Ceremonia Religiosa</p>
+        <h2>Parroquia de San Antonio de Padua</h2>
+        <p>Texcoco, Estado de México</p>
+        <p class="time">3:45 p.m.</p>
+        <a class="btn" href="https://maps.app.goo.gl/V4G6ipJnWWGMNDraA" target="_blank" rel="noopener">Ver ubicación</a>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="event-card">
+        <span class="icon">🥂</span>
+        <p class="small-title">Recepción</p>
+        <h2>Salón Demis</h2>
+        <p>Chiconcuac, Estado de México</p>
+        <p class="time">5:30 p.m.</p>
+        <a class="btn" href="https://maps.app.goo.gl/LKsHuFzwnh9EWLmV8" target="_blank" rel="noopener">Ver ubicación</a>
+      </div>
+    </section>
+
+    <section class="section details reveal">
+      <div class="mini-card">
+        <span>👗🤵</span>
+        <p class="small-title">Dress Code</p>
+        <h2>Formal</h2>
+      </div>
+      <div class="mini-card">
+        <span>✨</span>
+        <p class="small-title">Color reservado para la festejada</p>
+        <h2>Rosa</h2>
+        <p>Gracias por ayudarnos a hacer único este momento.</p>
+      </div>
+    </section>
+
+    <section class="section gift reveal">
+      <div class="card">
+        <span class="icon">🎁</span>
+        <h2>Lluvia de sobres</h2>
+        <p>Para mí, tu presencia es mi mejor regalo.</p>
+        <p>Pero si gustas habrá la opción de:</p>
+        <div class="gift-options">
+          <span>Regalo clásico</span>
+          <span>Sobre con dinero</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery reveal">
+      <p class="small-title">Galería</p>
+      <h2>Momentos de Ximena</h2>
+      <p class="body-text">Reemplaza estas imágenes por fotografías de Ximena.</p>
+      <div class="gallery-grid">
+        <div class="photo"><img src="foto1.jpg" width="300" height="300"></div>
+        <div class="photo"><img src="foto2.jpg" width="300" height="300"></div>
+        <div class="photo"><img src="foto3.jpg" width="300" height="300"></div>
+        <div class="photo"><img src="foto4.jpg" width="300" height="300"></div>
+      </div>	
+    </section>
+
+    <section class="section rsvp reveal">
+      <div class="card">
+        <p class="small-title">Confirmación de asistencia</p>
+        <h2>Confirma antes del 10 de Julio de 2026</h2>
+        <a class="btn whatsapp" href="https://wa.me/525515357447?text=Hola%20Judith,%20confirmo%20mi%20asistencia%20a%20los%2016%20a%C3%B1os%20de%20Ximena." target="_blank" rel="noopener">Confirmar con mamá</a>
+        <a class="btn whatsapp" href="https://wa.me/525545255965?text=Hola%20Ricardo,%20confirmo%20mi%20asistencia%20a%20los%2016%20a%C3%B1os%20de%20Ximena." target="_blank" rel="noopener">Confirmar con papá</a>
+      </div>
+    </section>
+
+    <section class="section farewell reveal">
+      <h2>Gracias por formar parte de mi historia</h2>
+      <p>Tu presencia hará que este día sea aún más especial.</p>
+      <h1>Ximena</h1>
+      <p>25 de Julio de 2026</p>
+    </section>
+  </main>
+
+  <footer>
+    Diseñado con temática Floral Rose Gold Luxury · Compatible con dispositivos móviles
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
